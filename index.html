@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://www.baidu.com/favicon.ico" type="image/x-icon">
+    <title>百度一下，你就知道</title> <!--Title that display on your browser's tab-->
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 270px;
+            height: 129px;
+            margin-top: 160px;
+            margin-bottom: 9px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .keyword {
+            width: 550px;
+            height: 16px;
+            padding: 12px 16px;
+            border-radius: 10px 0 0 10px;
+            border: 2px solid #c4c7ce;
+        }
+
+        .keyword:focus {
+            border: 2px solid #4e6ef2;
+            outline: none;
+        }
+
+        .camera {
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            top: 50%;
+            margin-top: -12px;
+            right: 16px;
+        }
+
+        label {
+            position: relative;
+        }
+
+        .button {
+            height: 44px;
+            width: 108px;
+            background-color: #4e6ef2;
+            border-radius: 0 10px 10px 0;
+            color: white;
+            border: none;
+            z-index: 2;
+            margin-left: -2px;
+            box-sizing: border-box;
+            font-size: 17px;
+        }
+
+    </style>
+</head>
+<body>
+<img class="logo" src="logo.png" alt="Baidu">
+<form method="get" action="https://www.baidu.com/s" target="_blank">
+    <label>
+        <input class="keyword" name="wd"/>
+        <img class="camera" src="camera.png" alt="Search by Image"/>
+    </label>
+    <input class="button" type="submit" value="百度一下">
+</form>
+</body>
+</html>
+
