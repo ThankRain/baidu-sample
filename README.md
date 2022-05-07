@@ -1,12 +1,18 @@
 # CSS Start Up
 
-Source Code Repository
+**Blog Link**
+
+[CSS Start Up - English Presentation](https://www.usfl.cn/post/3)
+
+**Source Code Repository**
 
 [Source Code](https://github.com/ThankRain/baidu-sample.git)
 
-Sample Preview:
+**Sample Preview:**
 
 [baidu-sample.vercel.app ](https://baidu-sample.vercel.app/)
+
+------
 
 I believe half of us has been learned the Computer Network Technology and Application. And you must have been tried to
 make an static web page by HTML(Hyper Text Mark-up Language) , also a "dynamic" page by JavaScript.
