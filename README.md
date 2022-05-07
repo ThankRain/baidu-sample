@@ -11,12 +11,12 @@ That must be we have forgotten something. That must be **CSS**!
 CSS, whose full name was **Cascading Style Sheets** *(层叠样式表)* , can decorate the page with attributes.
 
 With CSS, it looks normal:
-![s2](src\s2.png)
+![s2](src/s2.png)
 
 
 Without CSS, all the page are rubbish:
 
-![s3](src\s3.png)
+![s3](src/s3.png)
 
 Just left the frame created by HTML.
 
@@ -25,21 +25,21 @@ So let's start up build web page by CSS!
 ## Start Up With HTML
 let's make some basic elements which are essential in a web page.
 
-![a0](src\a0.png)
+![a0](src/a0.png)
 
 Then, let's check what elements we need if we want to make a search index page:
 
-![s3](src\s3.png)
+![s3](src/s3.png)
 
 One image *(the first two are unnecessary because we could not see it on the page directly)*,one input element with a camera image, and a button that enables us to search.
 
 OK, let's write the HTML frame:
 
-![a2](src\a2.png)
+![a2](src/a2.png)
 
 One image as the logo,  and a form to submit the search request to Baidu. Yet the label combines the input element and the camera icon. Finally with one button. It looks like this:
 
-![a3](src\a3.png)
+![a3](src/a3.png)
 
 ## Start Up With CSS
 
@@ -56,7 +56,7 @@ CSS is written in the `<style>` tag, write these CSS to make everything in the c
         }
     </style>
 ```
-![a4](src\a4.png)
+![a4](src/a4.png)
 
 ```CSS
 body{ <block> }
@@ -75,7 +75,7 @@ align-items: center;
 ```
 This code appoints that all the elements will align in the center of the parent.
 Here are the actual effect:
-![a5](src\a5.png)
+![a5](src/a5.png)
 
 All the elements are in the center (horizontally) !
 
@@ -93,14 +93,14 @@ Write these codes in the `<style>` tag:
             margin-bottom: 9px;
         }
 ```
-![a7](src\a7.png)
+![a7](src/a7.png)
 The `.logo` claims that it will take effect the element which has the attributes `class="logo"`, the `.` stand for `class` here.
 The `width` and `height` set the logo image's width and height, the `px` means `pixel`*(像素)*
 And the `margin-top` and the `margin-bottom` appoint that the element far from the top element `160px` and far from the bottom element `9px`
 Here is the effect:
-![a6](src\a6.png)
+![a6](src/a6.png)
 Here are the explanation
-![a6](src\a8.png)
+![a6](src/a8.png)
 
 ### Adjust the input
 Similarly, we adjust the input and form
@@ -118,10 +118,10 @@ Similarly, we adjust the input and form
             border: 2px solid #c4c7ce;
         }
 ```
-![a9](src\a9.png)
+![a9](src/a9.png)
 This is the `padding` effect.
-![a10](src\a10.png)
-![a11](src\a11.png)
+![a10](src/a10.png)
+![a11](src/a11.png)
 This is the effect of `border-radius:10px 0 0 10px`,which means`boder-radius: left-top right-top right-bottom left-bottom`
 
 ### Adjust Camera
@@ -140,9 +140,9 @@ Next is adjust the camera:
             position: relative;
         }
 ```
-![a12](src\a12.png)
+![a12](src/a12.png)
 The effect:
-![a13](src\a13.png)
+![a13](src/a13.png)
 
 ### Finally Adjust the Button
 ```CSS
@@ -159,10 +159,10 @@ The effect:
             font-size: 17px;
         }
 ```
-![a14](src\a14.png)
+![a14](src/a14.png)
 
 The ultimately effect:
-![a15](src\a15.png)
+![a15](src/a15.png)
 
 For deep learning:
 
